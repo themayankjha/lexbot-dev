@@ -22,4 +22,7 @@ async def bye(ctx):
 @client.command()
 async def kill(ctx):
     await ctx.send("Thats illegal bruh")
+@client.command()
+async def meme(ctx):
+    await ctx.send("Sorry thats the job of MemeBot")
 client.run(tokenkey)
