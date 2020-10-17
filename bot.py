@@ -27,5 +27,9 @@ async def meme(ctx):
     await ctx.send("Sorry thats the job of MemeBot")
 @client.command()
 async def songs(ctx):
-    await ctx.send("-play tunak tunak tun")
+    await ctx.send("-play https://open.spotify.com/playlist/0ARw76KUNiAthD8NZJTovL?si=9hblmeHITZW_vcB8F8YKRw")
+@client.command()    
+async def rip(ctx):
+    await ctx.send("https://tenor.com/view/dancing-coffin-dancing-pallbearers-funeral-dance-gif-16837090")
+    
 client.run(tokenkey)
