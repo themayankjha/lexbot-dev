@@ -13,5 +13,8 @@ async def ping(ctx):
 @client.command()
 async def bruh(ctx):
     await ctx.send("Bruh")
+@client.command()
+async def hello(ctx):
+    await ctx.send("Hello World!")
 
 client.run(tokenkey)
