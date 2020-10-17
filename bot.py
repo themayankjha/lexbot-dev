@@ -25,4 +25,7 @@ async def kill(ctx):
 @client.command()
 async def meme(ctx):
     await ctx.send("Sorry thats the job of MemeBot")
+@client.command()
+async def songs(ctx):
+    await ctx.send("-play tunak tunak tun")
 client.run(tokenkey)
