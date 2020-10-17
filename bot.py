@@ -21,5 +21,5 @@ async def bye(ctx):
     await ctx.send("Ciao")
 @client.command()
 async def kill(ctx):
-    await ctx.send("Thats illegal bruh")
+    await ctx.send("Thats illegal man")
 client.run(tokenkey)
