@@ -16,5 +16,8 @@ async def bruh(ctx):
 @client.command()
 async def hello(ctx):
     await ctx.send("Hello World!")
+@client.command()
+async def bye(ctx):
+    await ctx.send("Ciao")
 
 client.run(tokenkey)
