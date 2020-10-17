@@ -16,5 +16,7 @@ async def bruh(ctx):
 @client.command()
 async def hello(ctx):
     await ctx.send("Hello World!")
+async def rip(ctx):
+    await ctx.send("https://tenor.com/view/dancing-coffin-dancing-pallbearers-funeral-dance-gif-16837090")
 
 client.run(tokenkey)
