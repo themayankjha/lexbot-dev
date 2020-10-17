@@ -19,5 +19,7 @@ async def hello(ctx):
 @client.command()
 async def bye(ctx):
     await ctx.send("Ciao")
-
+@client.command()
+async def kill(ctx):
+    await ctx.send("Thats illegal bruh")
 client.run(tokenkey)
