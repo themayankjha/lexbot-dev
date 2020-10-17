@@ -21,9 +21,13 @@ async def bye(ctx):
     await ctx.send("Ciao")
 @client.command()
 async def kill(ctx):
-    await ctx.send("Thats illegal man")
+    await ctx.send("Thats illegal bruh")
+@client.command()
+async def meme(ctx):
+    await ctx.send("Sorry thats the job of MemeBot")
 @client.command()
 async def rip(ctx):
     await ctx.send("https://tenor.com/view/dancing-coffin-dancing-pallbearers-funeral-dance-gif-16837090")
     
+
 client.run(tokenkey)
