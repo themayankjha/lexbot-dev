@@ -279,6 +279,10 @@ async def songs(ctx):
 async def rip(ctx):
     await ctx.send("https://tenor.com/view/dancing-coffin-dancing-pallbearers-funeral-dance-gif-16837090")
 
+@client.command()
+async def deep(ctx):
+    await ctx.send("https://youtu.be/MEg-oqI9qmw")
+
 @client.event
 async def on_ready():
     #await bot.change_presence(activity=discord.Activity(name='Custom Channels', type=2))
@@ -292,7 +296,6 @@ async def on_ready():
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound):
         return
-
 
 client.run(tokenkey)
     
