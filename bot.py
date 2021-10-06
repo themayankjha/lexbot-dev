@@ -13,5 +13,25 @@ async def ping(ctx):
 @client.command()
 async def bruh(ctx):
     await ctx.send("Bruh")
-
+@client.command()
+async def hello(ctx):
+    await ctx.send("Hello World!")
+@client.command()
+async def bye(ctx):
+    await ctx.send("Ciao")
+@client.command()
+async def kill(ctx):
+    await ctx.send("Thats illegal bruh")
+@client.command()
+async def meme(ctx):
+    await ctx.send("Sorry thats the job of MemeBot")
+@client.command()
+async def songs(ctx):
+    await ctx.send("-play https://open.spotify.com/playlist/0ARw76KUNiAthD8NZJTovL?si=9hblmeHITZW_vcB8F8YKRw")
+@client.command()    
+async def rip(ctx):
+    await ctx.send("https://tenor.com/view/dancing-coffin-dancing-pallbearers-funeral-dance-gif-16837090")
+@client.command()
+async def deep(ctx):
+    await ctx.send("https://youtu.be/MEg-oqI9qmw")
 client.run(tokenkey)
