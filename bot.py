@@ -281,8 +281,10 @@ async def rip(ctx):
 
 @client.command()
 async def deep(ctx):
-    await ctx.send("https://youtu.be/MEg-oqI9qmw")
-
+    await ctx.send("-play https://youtu.be/MEg-oqI9qmw")
+@client.command()
+async def play_video(ctx):
+    await ctx.send("-play https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 @client.event
 async def on_ready():
     #await bot.change_presence(activity=discord.Activity(name='Custom Channels', type=2))
