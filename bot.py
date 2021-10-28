@@ -283,7 +283,10 @@ async def run(ctx):
     await ctx.send("Can you catch me?")
 @client.command()       
 async def dance(ctx):
-    await ctx.send("https://tenor.com/view/dance-kid-club-gif-9152583")    
+    await ctx.send("https://tenor.com/view/dance-kid-club-gif-9152583")   
+@client.command()       
+async def cry(ctx):
+    await ctx.send("iCRI")   
 
 @client.command()
 async def deep(ctx):
