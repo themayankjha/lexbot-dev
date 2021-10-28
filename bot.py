@@ -278,6 +278,9 @@ async def songs(ctx):
 @client.command()    
 async def rip(ctx):
     await ctx.send("https://tenor.com/view/dancing-coffin-dancing-pallbearers-funeral-dance-gif-16837090")
+@client.command()    
+async def run(ctx):
+    await ctx.send("Can you catch me?")
 
 @client.command()
 async def deep(ctx):
