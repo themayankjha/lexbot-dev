@@ -281,6 +281,7 @@ async def rip(ctx):
 @client.command()    
 async def run(ctx):
     await ctx.send("Can you catch me?")
+@client.command()       
 async def dance(ctx):
     await ctx.send("https://tenor.com/view/dance-kid-club-gif-9152583")    
 
